@@ -1,0 +1,420 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .navbar li {
+    display: inline;
+}
+
+header .navbar li a {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header .navbar li a:hover {
+    background-color: #f1f1f1;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 50px;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.home .home-text {
+    max-width: 50%;
+}
+
+.home .home-text span {
+    font-size: 24px;
+    color: #6c757d;
+}
+
+.home .home-text h1 {
+    font-size: 48px;
+    color: #343a40;
+}
+
+.home .home-text h2 {
+    font-size: 36px;
+    color: #495057;
+    margin: 20px 0;
+}
+
+.home .home-text .btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.home .home-text .btn:hover {
+    background-color: #218838;
+}
+
+/* Shop Section */
+.shop {
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.shop .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.shop .heading span {
+    font-size: 24px;
+    color: #6c757d;
+}
+
+.shop .heading h1 {
+    font-size: 36px;
+    color: #343a40;
+}
+
+.shop .shop-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.shop .box {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 300px;
+}
+
+.shop .box .box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.shop .box .stars {
+    margin: 10px 0;
+}
+
+.shop .box .stars i {
+    color: #ffc107;
+}
+
+.shop .box h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.shop .box span {
+    font-size: 20px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.shop .box .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.shop .box .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Delivery Section */
+.delivery {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.delivery .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.delivery .heading span {
+    font-size: 24px;
+    color: #6c757d;
+}
+
+.delivery .heading h1 {
+    font-size: 36px;
+    color: #343a40;
+}
+
+.delivery .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.delivery .delivery-img {
+    flex: 1;
+}
+
+.delivery .delivery-text {
+    flex: 1;
+}
+
+.delivery .delivery-text h2 {
+    font-size: 32px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.delivery .delivery-text p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.delivery .delivery-text .btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.delivery .delivery-text .btn:hover {
+    background-color: #218838;
+}
+
+/* App Section */
+.app {
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.app .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.app .heading span {
+    font-size: 24px;
+    color: #6c757d;
+}
+
+.app .heading h1 {
+    font-size: 36px;
+    color: #343a40;
+}
+
+.app .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.app .app-text {
+    flex: 1;
+}
+
+.app .app-text h2 {
+    font-size: 32px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.app .app-text p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.app .app-text .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.app .app-text .btn:hover {
+    background-color: #0056b3;
+}
+
+.app .app-img {
+    flex: 1;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about .about-img {
+    flex: 1;
+}
+
+.about .about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about .about-text h2 {
+    font-size: 32px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.about .about-text p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about .about-text .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.about .about-text .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.contact .social {
+    margin-bottom: 20px;
+}
+
+.contact .social a {
+    font-size: 24px;
+    color: #6c757d;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.contact .social a:hover {
+    color: #007bff;
+}
+
+.contact .links {
+    margin-bottom: 20px;
+}
+
+.contact .links a {
+    font-size: 16px;
+    color: #6c757d;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.contact .links a:hover {
+    color: #007bff;
+}
+
+.contact p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .home, .shop, .delivery, .app, .about {
+        padding: 20px;
+    }
+
+    .home, .delivery .container, .app .container {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    header .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .home .home-text {
+        max-width:fit-content;
+    }
+}
