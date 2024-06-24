@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: black;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: black;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .menu li a{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 70px;
+}
+#Home{
+  background: #fff;
+}
+#About{
+  background: #f2f2f2;
+}
+#Category{
+  background: #e6e6e6;
+}
+#Latest{
+  background: #fff;
+}
+#Contact{
+  background: #f2f2f2;
+}
+#Feedback{
+  background: #e6e6e6;
+}
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1.2rem;
+}
+
+
+#Contact {
+  background-color: #f9f9f9; 
+  padding: 40px 0;
+}
+
+#Contact .container {
+  text-align: center;
+}
+
+#Contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+#Contact p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#Contact a {
+  color: #007bff; 
+  text-decoration: none;
+}
+
+#Contact a:hover {
+  text-decoration: underline; 
+}
+
+#Home {
+
+  background-size: cover;
+  background-position: center;
+  color: #1d1b1b; 
+  text-align: center;
+  padding: 100px 0; 
+}
+
+#Home .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#Home h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+#Home p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  #Home h1 {
+      font-size: 2.5rem;
+  }
+  
+  #Home p {
+      font-size: 1.2rem;
+  }
+}
+#About {
+  background-color: #f9f9f9; 
+  padding: 60px 0; 
+}
+
+#About .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#About h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+#About p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666; 
+}
